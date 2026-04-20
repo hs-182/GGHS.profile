@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Profile</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #0ea5e9);
+  text-align: center;
+  color: white;
+}
+
+/* Profile */
+.profile {
+  margin-top: 40px;
+}
+
+.profile img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.bio {
+  margin: 15px auto;
+  width: 80%;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Social Icons */
+.socials {
+  margin: 15px;
+}
+
+.socials i {
+  font-size: 22px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.socials i:hover {
+  transform: scale(1.2);
+}
+
+/* Button Card */
+.link-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  margin: 15px auto;
+  width: 85%;
+  padding: 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+.link-card:hover {
+  transform: scale(1.03);
+  background: #211d1d;
+}
+
+.link-left {
+  display: flex;
+  align-items: center;
+}
+
+.link-left img {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  margin-right: 12px;
+}
+
+.link-title {
+  font-weight: 500;
+}
+
+.link-sub {
+  font-size: 12px;
+  color: #555;
+}
+
+.menu {
+  font-size: 18px;
+  opacity: 0.6;
+}
+</style>
+
+<!-- Icon CDN -->
+<script src="https://kit.fontawesome.com/4b6b6f5b9b.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<!-- Profile -->
+<div class="profile">
+  <img src="pp.jpg">
+</div>
+
+<div class="bio">
+  GGHS.<br>
+  live streaming kapan aja :V<br>
+  Roblox and all other games streamer :V
+</div>
+
+<!-- Social -->
+<div class="socials">
+  <i class="fab fa-tiktok"></i>
+  <i class="fab fa-saweria"></i>
+  <i class="fab fa-youtube"></i>
+  <i class="fab fa-discord"></i>
+</div>
+
+<!-- Links -->
+<a href="https://tiktok.com/@gghs880" class="link-card">
+  <div class="link-left">
+    <img src="ttk.jpg">
+    <div>
+      <div class="link-title">TikTok</div>
+    </div>
+  </div>
+  <div class="menu">⋮</div>
+</a>
+
+<a href="https://saweria.co/GGHS" class="link-card">
+  <div class="link-left">
+    <img src="saweria.jpeg">
+    <div>
+      <div class="link-title">saweria</div>
+    </div>
+  </div>
+  <div class="menu">⋮</div>
+</a>
+
+<a href="https://youtube.com/@ald_gg_has_18" class="link-card">
+  <div class="link-left">
+    <img src="yt.jpg">
+    <div>
+      <div class="link-title">YouTube</div>
+    </div>
+  </div>
+  <div class="menu">⋮</div>
+</a>
+
+<a href="https://discord.gg/kYEhqGGyA" class="link-card">
+  <div class="link-left">
+    <img src="DC.jpg">
+    <div>
+      <div class="link-title">Discord Server</div>
+      <div class="link-sub">Free to join</div>
+    </div>
+  </div>
+  <div class="menu">⋮</div>
+</a>
+
+</body>
+</html>
